@@ -1,4 +1,4 @@
-/* ===== RESET & BASE ===== */
+/* Сброс и база данных*/
 *,
 *::before,
 *::after {
@@ -29,7 +29,7 @@ button {
   cursor: pointer;
 }
 
-/* ===== HEADER ===== */
+/* Заголовок */
 .header {
   background: #fff;
   border-bottom: 1px solid #e8e8e8;
@@ -69,7 +69,7 @@ button {
   color: #1a1a1a;
 }
 
-/* ===== PROGRESS BAR ===== */
+/* Прогресс бар */
 .progress {
   background: #fff;
   border-bottom: 1px solid #e8e8e8;
@@ -165,7 +165,7 @@ button {
   white-space: nowrap;
 }
 
-/* ===== MAIN ===== */
+/* main */
 .main {
   flex: 1;
   padding: 40px 0 60px;
@@ -195,7 +195,7 @@ button {
   flex-shrink: 0;
 }
 
-/* ===== BOOKING LAYOUT ===== */
+/* Схема бронирования */
 .booking {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -203,7 +203,7 @@ button {
   margin-bottom: 32px;
 }
 
-/* ===== CALENDAR ===== */
+/* Календарь */
 .calendar {
   background: #fff;
   border-radius: 12px;
@@ -306,7 +306,7 @@ button {
   border-color: #1a1a1a;
 }
 
-/* ===== TIME SLOTS ===== */
+/* Слот времени */
 .timeslots {
   background: #fff;
   border-radius: 12px;
@@ -337,6 +337,7 @@ button {
   text-align: center;
   transition: border-color 0.2s, box-shadow 0.2s;
   cursor: pointer;
+
   /* Фиксированная высота */
   height: 56px;
   display: flex;
@@ -384,7 +385,7 @@ button {
   color: #ccc;
 }
 
-/* ===== BUTTON ===== */
+/* Кнопка */
 .booking__actions {
   display: flex;
   justify-content: flex-end;
@@ -409,7 +410,7 @@ button {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* ===== FOOTER ===== */
+/* Подвал */
 .footer {
   background: #2a2a2a;
   color: #ccc;
@@ -494,7 +495,6 @@ button {
   color: #fff;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .booking {
     grid-template-columns: 1fr;

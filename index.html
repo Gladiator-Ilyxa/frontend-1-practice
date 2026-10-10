@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <!-- ===== HEADER ===== -->
+  <!-- Заголовок -->
   <header class="header">
     <div class="header__container">
       <a href="#" class="header__logo">
@@ -97,7 +97,7 @@
 
       <div class="booking">
 
-        <!-- Calendar -->
+        <!-- Календарь -->
         <div class="calendar">
           <div class="calendar__header">
             <h2 class="calendar__month">Июнь 2025</h2>
@@ -112,7 +112,7 @@
           </div>
 
           <div class="calendar__days">
-            <!-- Row 1: empty + 26-1 -->
+            <!-- Ряд 1: Пустые значения: + 26-1 -->
             <span class="calendar__day calendar__day--muted">26</span>
             <span class="calendar__day calendar__day--muted">27</span>
             <span class="calendar__day calendar__day--muted">28</span>
@@ -121,7 +121,7 @@
             <span class="calendar__day calendar__day--muted">31</span>
             <span class="calendar__day calendar__day--muted">1</span>
 
-            <!-- Row 2 -->
+            <!-- Ряд 2 -->
             <span class="calendar__day">2</span>
             <span class="calendar__day">3</span>
             <span class="calendar__day">4</span>
@@ -130,7 +130,7 @@
             <span class="calendar__day calendar__day--muted">7</span>
             <span class="calendar__day calendar__day--muted">8</span>
 
-            <!-- Row 3 -->
+            <!-- Ряд 3 -->
             <span class="calendar__day">9</span>
             <span class="calendar__day">10</span>
             <span class="calendar__day">11</span>
@@ -139,7 +139,7 @@
             <span class="calendar__day calendar__day--muted">14</span>
             <span class="calendar__day calendar__day--muted">15</span>
 
-            <!-- Row 4 -->
+            <!-- Ряд 4 -->
             <span class="calendar__day">16</span>
             <span class="calendar__day">17</span>
             <span class="calendar__day">18</span>
@@ -150,7 +150,7 @@
           </div>
         </div>
 
-        <!-- Time slots -->
+        <!-- Слоты времени -->
         <div class="timeslots">
           <h2 class="timeslots__title">Доступное время</h2>
 
@@ -184,7 +184,7 @@
     </div>
   </main>
 
-  <!-- ===== FOOTER ===== -->
+  <!-- Подвал -->
   <footer class="footer">
     <div class="footer__container">
 
@@ -225,6 +225,7 @@
   </footer>
 
   <script>
+
   // Выбор дня в календаре
   document.querySelectorAll('.calendar__day:not(.calendar__day--muted)').forEach(day => {
     day.addEventListener('click', () => {
